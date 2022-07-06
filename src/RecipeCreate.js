@@ -43,7 +43,8 @@ function handleSubmit(event) {
               type="text" 
               name="name"
               onChange={handleChange}
-            placeholder="name"
+            placeholder="Name"
+            required
               />
               
             </td>
@@ -54,7 +55,7 @@ function handleSubmit(event) {
               type="text" 
               name="cuisine"
               onChange={handleChange}
-             placeholder="cuisine"
+             placeholder="Cuisine"
               />
             </td>
             <td>
@@ -64,7 +65,8 @@ function handleSubmit(event) {
               type="url" 
               name="photo" 
               onChange={handleChange}
-              placeholder="url"
+              placeholder="URL"
+              required
               />
             </td>
             <td>
